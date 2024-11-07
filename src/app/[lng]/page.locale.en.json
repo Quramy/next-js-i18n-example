@@ -1,4 +1,5 @@
 {
   "title": "Hi there!",
-  "to-second-page": "To second page"
+  "toSecondPage": "To second page",
+  "toPagesRouterPage": "To pages router page"
 }

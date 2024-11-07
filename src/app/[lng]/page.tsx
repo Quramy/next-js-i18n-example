@@ -12,7 +12,14 @@ export default async function Home({ params: { lng } }: Props) {
   return (
     <>
       <h1>{t("title")}</h1>
-      <Link href={`/${lng}/second-page`}>{t("to-second-page")}</Link>
+      <ul>
+        <li>
+          <Link href={`/${lng}/second-page`}>{t("toSecondPage")}</Link>
+        </li>
+        <li>
+          <Link href={`/${lng}/pages-router`}>{t("toPagesRouterPage")}</Link>
+        </li>
+      </ul>
     </>
   );
 }

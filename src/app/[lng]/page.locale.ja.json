@@ -1,4 +1,5 @@
 {
   "title": "こんにちは！",
-  "to-second-page": "2番目のページへ"
+  "toSecondPage": "2番目のページへ",
+  "toPagesRouterPage": "Pages Router ページへ"
 }
